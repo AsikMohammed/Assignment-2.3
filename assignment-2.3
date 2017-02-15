@@ -19,7 +19,7 @@ MapReduce:
 MapReduce component is again divided into two sub-components:
 
 1.) Job Tracker
-    Job Tracker is used to assign MapReduce Tasks to Task Trackers in the Cluster of Nodes. Sometimes, it reassigns same tasks to other Task Trackers as previous Task Trackers are failed or shutdown scenarios. Job Tracker maintains all the Task Trackers status like Up/running, Failed, Recovered etc.
+    Job Tracker is used to assign MapReduce Tasks to Task Trackers in the Cluster of Nodes. Sometimes, it reassigns same tasks to other Task Trackers as previous Task Trackers are failed or shutdown scenarios. Job Tracker maintains all the Task Trackers status like Up/running, Failed, Recovered etc.,
     a.)JobTracker process runs on a separate node and not usually on a DataNode.
     b.)JobTracker is an essential Daemon for MapReduce execution in MRv1. It is replaced by ResourceManager/ApplicationMaster in MRv2.
 
